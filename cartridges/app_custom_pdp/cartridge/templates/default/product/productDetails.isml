@@ -48,12 +48,25 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Prices -->
+                        <div class="prices text-left">
+                            <isset name="price" value="${product.price}" scope="page" />
+                            <isinclude template="product/components/pricing/main" />
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="col">
                         <isinclude template="product/components/pidRating" />
                     </div>
                 </div>
+
+                <isset name="loopState" value="${{
+                                               count: 1}}" scope="page" />
+                <isinclude template="product/components/descriptionAndDetails" />
 
                 <div class="attributes">
                     <!-- Attributes and Quantity -->
