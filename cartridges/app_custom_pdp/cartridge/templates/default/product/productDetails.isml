@@ -3,6 +3,7 @@
     <isscript>
         var assets = require('*/cartridge/scripts/assets');
         assets.addJs('/js/productDetail.js');
+        assets.addJs('/js/quantityBtn.js');
         assets.addCss('/css/product/detail.css');
         assets.addCss('/css/pdp.css');
     </isscript>
@@ -84,9 +85,11 @@
                             </div>
                         </div>
 
+                        <hr>
+
                         <isif condition="${attributeStatus.last && !isBundle}">
                             <!-- Quantity Drop Down Menu -->
-                            <div class="attribute quantity col-12">
+                            <div class="attribute quantity d-flex p-0 justify-content-between">
                                 <isinclude template="product/components/quantity" />
                             </div>
                         </isif>

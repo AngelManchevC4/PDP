@@ -1,3 +1,25 @@
-.product-size--select{
+.product-size--select {
     height: 6.5rem;
+}
+
+.product-size--select:focus-visible {
+    outline: 0;
+}
+
+@media screen and (max-width:1000px) {
+    .product-size--select {
+        height: 8.5rem;
+    }
+}
+
+@media screen and (max-width:700px) and(min-width:530px) {
+    .product-size--select {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width:350px){
+    .product-size--select {
+        height: 12rem;
+    }
 }
