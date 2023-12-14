@@ -1,6 +1,6 @@
 <isscript>
     var assets = require('*/cartridge/scripts/assets');
-    assets.addCss('/css/text.css');
+    /*assets.addCss('/css/text.css');*/
     assets.addJs('/js/showMoreBtn.js');
 </isscript>
 
@@ -14,7 +14,6 @@
                 <p>
                     <isprint value="${product.shortDescription}" encoding="on" />
                 </p>
-                <isprint value="${product.longDescription}" encoding="off" />
             </div>
             <a class="text-nowrap show-more--btn" href="#moreText">View Details</a>
         </div>

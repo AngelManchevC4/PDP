@@ -3,7 +3,7 @@
         assets.addJs('/js/carousel.js');
     </isscript>
 
-<div class="col-12 col-sm-6 d-flex">
+<div class="col-12 col-sm-7 d-flex pr-3">
     <isif condition="${product.images['large'].length > 1}">
         <ol class="col-sm-2 list-unstyled">
             <isloop items="${product.images['large']}" var="image" status="loopStatus">
@@ -14,7 +14,7 @@
         </ol>
     </isif>
 
-    <div id="pdpCarousel-${product.id}" class="carousel slide col-10" data-interval="0">
+    <div id="pdpCarousel-${product.id}" class="carousel slide pr-0 pl-0 ${product.images['large'].length>1 ? "col-10" : ""}" data-interval="0">
         <div class="carousel-inner" role="listbox">
             <isloop items="${product.images['large']}" var="image" status="loopStatus">
                 <div class='carousel-item <isif condition="${loopStatus.index == 0}">active</isif>'>

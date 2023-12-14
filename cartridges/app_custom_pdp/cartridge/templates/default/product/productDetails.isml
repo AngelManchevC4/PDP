@@ -1,14 +1,21 @@
 <isdecorate template="common/layout/page">
 
+    <isinclude template="/components/modules" sf-toolkit="off" />
+
     <isscript>
         var assets = require('*/cartridge/scripts/assets');
         assets.addJs('/js/productDetail.js');
         assets.addJs('/js/quantityBtn.js');
+        assets.addJs('/js/collapseBtn.js');
         assets.addCss('/css/product/detail.css');
-        assets.addCss('/css/pdp.css');
+        
+        /* assets.addCss('/css/pdp.css');  */
+
+        assets.addCss('/css/pdpCustom.css');
     </isscript>
 
     <isset name="product" value="${pdict.product}" scope="page" />
+    <isset name="productID" value="${pdict.product.id}" scope="page" />
     <isset name="isQuickView" value="${false}" scope="page" />
     <isset name="isProductSet" value="${pdict.product.productType === 'set'}" scope="page" />
     <isobject object="${product.raw}" view="detail" />
@@ -41,7 +48,7 @@
             <!-- Product Images Carousel -->
             <isinclude template="product/components/imageCarousel" />
 
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-sm-5">
 
                 <!-- Product Name -->
                 <div class="row">
@@ -96,30 +103,6 @@
 
                     </isloop>
 
-                    <iscomment>
-                        <isif condition="${!product.variationAttributes}">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="simple-quantity">
-                                        <isinclude template="product/components/quantity" />
-                                    </div>
-                                </div>
-                            </div>
-                        </isif>
-                    </iscomment>
-
-                    <iscomment>
-                        <div class="product-options">
-                            <isif condition="${product.options && product.options.length > 0}">
-                                <isinclude template="product/components/options" />
-                            </isif>
-                        </div>
-                    </iscomment>
-
-                    <!-- Size Chart -->
-
-
-                    <!-- Product Availability -->
                     <isinclude template="product/components/productAvailability" />
 
                     <!-- Applicable Promotions -->
@@ -129,28 +112,38 @@
                         </div>
                     </div>
 
-                    <div class="prices-add-to-cart-actions">
-                        <div class="row">
-                            <div class="col-12">
-                                <!-- Prices -->
-                                <div class="prices">
-                                    <isset name="price" value="${product.price}" scope="page" />
-                                    <isinclude template="product/components/pricing/main" />
-                                </div>
-                            </div>
-                        </div>
+                    <hr>
 
+                    <div class="prices-add-to-cart-actions">
                         <!-- Cart and [Optionally] Apple Pay -->
                         <isinclude template="product/components/addToCartProduct" />
                     </div>
 
-                    <!-- Social Sharing Icons -->
-                    <div class="row">
-                        <isinclude template="product/components/socialIcons" />
+                    <div class="mt-5">
+                        <iscontentasset aid="addToCart-Btn-Asset" />
+                    </div>
+
+                </div>
+
+                <iscomment> PRODUCT DETAILS </iscomment>
+
+                <div class="row mt-2 border-top">
+                    <div class="col-sm-12 mt-2">
+                        <isinclude template="product/components/productDetailsBtn" sf-toolkit="on" />
                     </div>
                 </div>
+
+                <iscomment> DELIVERY </iscomment>
+
+                <div class="row mt-2 border-top">
+                    <div class="col-sm-12 mt-2">
+                        <isinclude template="product/components/deliveryBtn" sf-toolkit="on" />
+                    </div>
+                </div>
+
             </div>
         </div>
+
 
         <div>
             <isslot id="cts-recommendations-m" description="Complete the set products" context="global"
@@ -164,6 +157,14 @@
             <isslot id="product-recommendations-m" description="Recommended products" context="global"
                 context-object="${pdict.product.raw}" />
         </div>
+
     </div>
+
+
+    <div class="text-center container">
+        <isinclude template="product/components/recommendedItems" sf-toolkit="on" />
+    </div>
+
+
     </isobject>
 </isdecorate>
