@@ -1,0 +1,54 @@
+<isif condition="${(product.recommendations.length >= 1) && (product.recommendations.length <= 3 )}">
+    
+    <div class="top-content">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center carousel-title">${Resource.msg('product.recommendations', 'common', null)}</h3>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+                <div class="row w-100 mx-auto" role="listbox">
+                    <isloop items="${product.recommendations}" var="recommendation" status="loopStatus">
+                        <div class="col-12 col-sm-6 col-md-4 ${product.recommendations.length == 4 ? "col-lg-3" : ""} ${product.recommendations.length == 3 ? "col-lg-4" : ""} ${product.recommendations.length == 2 ? "col-lg-6" : ""} ${product.recommendations.length == 1 ? "col-lg-12" : ""}">
+                                <isinclude url="${URLUtils.url('Tile-Show', 'pid', recommendation.recommendedItemID, 'swatches', false, 'ratings', true, 'showQuickView', false)}" />
+                        </div>
+                    </isloop>
+                </div>
+        </div>
+    </div>
+    
+</isif>
+
+<isif condition="${(product.recommendations.length > 4)}">
+        <div class="top-content">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center carousel-title">${Resource.msg('product.recommendations', 'common', null)}</h3>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div id="recommendation-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner recommendation-carousel-inner row w-100 mx-auto" role="listbox">
+                    <isloop items="${product.recommendations}" var="recommendation" status="loopStatus">
+                        <div class="carousel-item recommendation-carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ${loopStatus.first ? "active" : ""}">
+                                <isinclude url="${URLUtils.url('Tile-Show', 'pid', recommendation.recommendedItemID, 'swatches', false, 'ratings', true, 'showQuickView', false)}" />
+                        </div>
+                    </isloop>
+                </div>
+                <a class="carousel-control-prev" href="#recommendation-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only text-secondary"></span>
+                </a>
+                <a class="carousel-control-next" href="#recommendation-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only text-secondary"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+</isif>
+

@@ -1,0 +1,8 @@
+<a class="js-collapse-details-btn" data-toggle="collapse" href="#collapseProductDetails" role="button"
+    aria-expanded="false" aria-controls="collapseProductDetails">
+    <h4 class="text-primary"><i class="fa fa-plus text-secondary js-product-icon mr-2"></i>${Resource.msg('label.product.details.info.button', 'common', null)}</h4>
+</a>
+
+<div id="collapseProductDetails" class="collapse col-sm-12 mt-2">
+    <isprint value="${product.longDescription}" encoding="off" />
+</div>

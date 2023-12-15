@@ -1,0 +1,18 @@
+<isif condition="${product.shortDescription}">
+    <div class="value content pl-0 bottom-0"
+        id="collapsible-description-${loopState && loopState.count ? loopState.count : '1'}">
+
+        <div class="d-flex align-items-end">
+            <div class="description-text--length description-text--container">
+                <p>
+                    <isprint value="${product.shortDescription}" encoding="on" />
+                </p>
+            </div>
+            <a class="text-nowrap show-more--btn" href="#moreText">${Resource.msg('label.view.details.button', 'common', null)}</a>
+        </div>
+
+
+
+
+    </div>
+</isif>

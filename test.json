@@ -1,0 +1,465 @@
+[
+    {
+        "uuid": "73e2a23c825b993aec458aadd8",
+        "id": "22416787M",
+        "productName": "Slim Pants",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "sales": {
+                "value": 175,
+                "currency": "USD",
+                "formatted": "$175.00",
+                "decimalPrice": "175.00"
+            },
+            "list": null
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Slim Pants, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwbaa587f1/images/medium/B0274208_ED5_0.jpg",
+                    "title": "Slim Pants, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dwbaa587f1/images/medium/B0274208_ED5_0.jpg"
+                }
+            ]
+        },
+        "rating": 3.9,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {}
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "74a352ffdc2f5a3ba3f742f63c",
+        "id": "44736828M",
+        "productName": "Cotton Stretch Pant",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "sales": {
+                "value": 185,
+                "currency": "USD",
+                "formatted": "$185.00",
+                "decimalPrice": "185.00"
+            },
+            "list": null
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Cotton Stretch Pant, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb17b4fe5/images/medium/B0574201_C43_0.jpg",
+                    "title": "Cotton Stretch Pant, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb17b4fe5/images/medium/B0574201_C43_0.jpg"
+                }
+            ]
+        },
+        "rating": 5,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {
+                        "id": "E3J",
+                        "description": null,
+                        "displayValue": "Brown",
+                        "value": "E3J",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Cotton Stretch Pant, Brown, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw8ad920a1/images/swatch/B0574201_E3J_sw.jpg",
+                                    "title": "Cotton Stretch Pant, Brown"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=44736828M&dwvar_44736828M_color=E3J"
+                    },
+                    {
+                        "id": "C43",
+                        "description": null,
+                        "displayValue": "White",
+                        "value": "C43",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Cotton Stretch Pant, White, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw00436d68/images/swatch/B0574201_C43_sw.jpg",
+                                    "title": "Cotton Stretch Pant, White"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=44736828M&dwvar_44736828M_color=C43"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "f11610fa68613df4de110ea134",
+        "id": "73910532M",
+        "productName": "Basic Leg Trousers",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "sales": {
+                "value": 195,
+                "currency": "USD",
+                "formatted": "$195.00",
+                "decimalPrice": "195.00"
+            },
+            "list": null
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Basic Leg Trousers, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw0f46444f/images/medium/90011212_001_0.jpg",
+                    "title": "Basic Leg Trousers, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw0f46444f/images/medium/90011212_001_0.jpg"
+                }
+            ]
+        },
+        "rating": 5,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {
+                        "id": "001",
+                        "description": null,
+                        "displayValue": "Black",
+                        "value": "001",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Basic Leg Trousers, Black, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwbe822695/images/swatch/90011212_001_sw.jpg",
+                                    "title": "Basic Leg Trousers, Black"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910532M&dwvar_73910532M_color=001"
+                    },
+                    {
+                        "id": "A00",
+                        "description": null,
+                        "displayValue": "Grey",
+                        "value": "A00",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Basic Leg Trousers, Grey, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6358f9e9/images/swatch/90011212_A00_sw.jpg",
+                                    "title": "Basic Leg Trousers, Grey"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910532M&dwvar_73910532M_color=A00"
+                    },
+                    {
+                        "id": "G8E",
+                        "description": null,
+                        "displayValue": "Navy",
+                        "value": "G8E",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Basic Leg Trousers, , swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwbe822695/images/swatch/90011212_001_sw.jpg",
+                                    "title": "Basic Leg Trousers, "
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910532M&dwvar_73910532M_color=G8E"
+                    },
+                    {
+                        "id": "DKL",
+                        "description": null,
+                        "displayValue": "Light Black",
+                        "value": "DKL",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Basic Leg Trousers, Light Black, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwbe822695/images/swatch/90011212_001_sw.jpg",
+                                    "title": "Basic Leg Trousers, Light Black"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910532M&dwvar_73910532M_color=DKL"
+                    },
+                    {
+                        "id": "B9W",
+                        "description": null,
+                        "displayValue": "Brown",
+                        "value": "B9W",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Basic Leg Trousers, Brown, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw00e1ed09/images/swatch/90011212_B9W_sw.jpg",
+                                    "title": "Basic Leg Trousers, Brown"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910532M&dwvar_73910532M_color=B9W"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "0cafadc4f01d9edd459117171e",
+        "id": "86736887M",
+        "productName": "Straight Leg Stretch Trousers",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "sales": {
+                "value": 195,
+                "currency": "USD",
+                "formatted": "$195.00",
+                "decimalPrice": "195.00"
+            },
+            "list": null
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Straight Leg Stretch Trousers, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw3b126c90/images/medium/B0574290_CP1_0.jpg",
+                    "title": "Straight Leg Stretch Trousers, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw3b126c90/images/medium/B0574290_CP1_0.jpg"
+                }
+            ]
+        },
+        "rating": 4.5,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {
+                        "id": "CP1",
+                        "description": null,
+                        "displayValue": "White",
+                        "value": "CP1",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Straight Leg Stretch Trousers, White, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwda066313/images/swatch/B0574290_CP1_sw.jpg",
+                                    "title": "Straight Leg Stretch Trousers, White"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=86736887M&dwvar_86736887M_color=CP1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "cdf5458a7884716fad511c7632",
+        "id": "73910432M",
+        "productName": "Microcheck Straight Leg Trousers",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "sales": {
+                "value": 195,
+                "currency": "USD",
+                "formatted": "$195.00",
+                "decimalPrice": "195.00"
+            },
+            "list": null
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Microcheck Straight Leg Trousers, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw63c74c0f/images/medium/90011211_001_0.jpg",
+                    "title": "Microcheck Straight Leg Trousers, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw63c74c0f/images/medium/90011211_001_0.jpg"
+                }
+            ]
+        },
+        "rating": 4.1,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {
+                        "id": "001",
+                        "description": null,
+                        "displayValue": "Black",
+                        "value": "001",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Microcheck Straight Leg Trousers, Black, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb99aa15e/images/swatch/90011211_001_sw.jpg",
+                                    "title": "Microcheck Straight Leg Trousers, Black"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910432M&dwvar_73910432M_color=001"
+                    },
+                    {
+                        "id": "A00",
+                        "description": null,
+                        "displayValue": "Grey",
+                        "value": "A00",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Microcheck Straight Leg Trousers, Grey, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw9cef54a9/images/swatch/90011211_A00_sw.jpg",
+                                    "title": "Microcheck Straight Leg Trousers, Grey"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910432M&dwvar_73910432M_color=A00"
+                    },
+                    {
+                        "id": "G8E",
+                        "description": null,
+                        "displayValue": "Navy",
+                        "value": "G8E",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Microcheck Straight Leg Trousers, Navy, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw45b941ea/images/swatch/90011211_G8E_sw.jpg",
+                                    "title": "Microcheck Straight Leg Trousers, Navy"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910432M&dwvar_73910432M_color=G8E"
+                    },
+                    {
+                        "id": "DKL",
+                        "description": null,
+                        "displayValue": "Light Black",
+                        "value": "DKL",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Microcheck Straight Leg Trousers, Light Black, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwb99aa15e/images/swatch/90011211_001_sw.jpg",
+                                    "title": "Microcheck Straight Leg Trousers, Light Black"
+                                }
+                            ]
+                        },
+                        "url": "/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=73910432M&dwvar_73910432M_color=DKL"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "0d03b2a2bff09d28568d304f79",
+        "id": "91736743M",
+        "productName": "Slim Fit Pants",
+        "productType": "master",
+        "brand": null,
+        "price": {
+            "type": "range",
+            "min": {
+                "sales": {
+                    "value": 50,
+                    "currency": "USD",
+                    "formatted": "$50.00",
+                    "decimalPrice": "50.00"
+                },
+                "list": null
+            },
+            "max": {
+                "sales": {
+                    "value": 175,
+                    "currency": "USD",
+                    "formatted": "$175.00",
+                    "decimalPrice": "175.00"
+                },
+                "list": null
+            }
+        },
+        "images": {
+            "medium": [
+                {
+                    "alt": "Slim Fit Pants, , medium",
+                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwdafa7cc6/images/medium/B0374208_B7H_0.jpg",
+                    "title": "Slim Fit Pants, ",
+                    "index": "0",
+                    "absURL": "https://zydc-003.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dwdafa7cc6/images/medium/B0374208_B7H_0.jpg"
+                }
+            ]
+        },
+        "rating": 3.2,
+        "variationAttributes": [
+            {
+                "attributeId": "color",
+                "id": "color",
+                "swatchable": true,
+                "values": [
+                    {
+                        "id": "B7H",
+                        "description": null,
+                        "displayValue": "Black",
+                        "value": "B7H",
+                        "selectable": true,
+                        "selected": true,
+                        "images": {
+                            "swatch": [
+                                {
+                                    "alt": "Slim Fit Pants, Black, swatch",
+                                    "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dwc188a6db/images/swatch/B0374208_B7H_sw.jpg",
+                                    "title": "Slim Fit Pants, Black"
+                                }
+                            ]
+                        },
+                        "url":"/on/demandware.store/Sites-RefArch-Site/en_US/Product-Show?pid=91736743M&…
