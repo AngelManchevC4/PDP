@@ -1,8 +1,6 @@
 <label class="font-weight-bold"
     for="quantity-${loopState && loopState.count ? loopState.count : '1'}">${Resource.msg('label.quantity', 'common', null)}</label>
 
-
-
 <div class="qty text-right d-flex">
 
     <button type="button" class="btn rounded-circle border-secondary js-quantity-button--minus"><i class="fa fa-minus text-secondary"></i></button>

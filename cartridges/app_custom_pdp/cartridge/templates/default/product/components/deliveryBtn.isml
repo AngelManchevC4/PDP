@@ -1,6 +1,6 @@
 <a class="js-collapse-delivery-btn" data-toggle="collapse" href="#collapseDelivery" role="button" aria-expanded="false"
     aria-controls="collapseDelivery">
-    <h4 class="text-primary"><i class="fa fa-plus text-secondary js-delivery-icon mr-2"></i>Delivery</h4>
+    <h4 class="text-primary"><i class="fa fa-plus text-secondary js-delivery-icon mr-2"></i>${Resource.msg('label.delivery.info.button', 'common', null)}</h4>
 </a>
 
 <div id="collapseDelivery" class="collapse col-sm-12 mt-2">

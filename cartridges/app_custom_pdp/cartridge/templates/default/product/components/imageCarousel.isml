@@ -1,8 +1,3 @@
-    <isscript>
-        var assets = require('*/cartridge/scripts/assets');
-        assets.addJs('/js/carousel.js');
-    </isscript>
-
 <div class="col-12 col-sm-7 d-flex pr-3">
     <isif condition="${product.images['large'].length > 1}">
         <ol class="col-sm-2 list-unstyled">
